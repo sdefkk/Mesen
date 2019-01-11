@@ -335,6 +335,28 @@
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Cancel</Control>
 		</Form>
+		<Form ID="frmEditHeader" Title="NES Header Editor">
+			<Control ID="radNes2">NES 2.0</Control>
+			<Control ID="radiNes">iNES</Control>
+			<Control ID="lblPrgSize">PRG ROM:</Control>
+			<Control ID="label2">CHR ROM:</Control>
+			<Control ID="label3">Work RAM:</Control>
+			<Control ID="label4">Save RAM:</Control>
+			<Control ID="lblMirroringType">Mirroring Type:</Control>
+			<Control ID="lblSystem">System:</Control>
+			<Control ID="lblHeader">Binary Header:</Control>
+			<Control ID="lblSubmapperId">Submapper:</Control>
+			<Control ID="lblMapperId">Mapper:</Control>
+			<Control ID="lblHeaderType">File Type:</Control>
+			<Control ID="lblInputType">Input Type:</Control>
+			<Control ID="lblVsPpuType">VS PPU Type:</Control>
+			<Control ID="lblVsSystemType">VS System Type:</Control>
+			<Control ID="lblFrameTiming">Frame Timing:</Control>
+			<Control ID="label5">CHR Save RAM:</Control>
+			<Control ID="chkBattery">Battery</Control>
+			<Control ID="chkTrainer">Trainer</Control>
+			<Control ID="lblError">warning</Control>
+		</Form>
 		<Form ID="frmPreferences" Title="Preferences">
 			<Control ID="tpgGeneral">General</Control>
 			<Control ID="lblDisplayLanguage">Display Language:</Control>
@@ -718,7 +740,7 @@
 		</Form>
 		<Form ID="frmBandaiMicrophone">
 		</Form>
-	</Forms>
+		</Forms>
 	<UserControls>
 		<UserControl ID="ctrlExcitingBoxingConfig">
 			<Control ID="lblLeftHook">Left Hook</Control>
